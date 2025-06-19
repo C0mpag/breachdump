@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Breach Check</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    form { margin-bottom: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Check if your email was breached</h1>
+  <form method="post">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Check</button>
+  </form>
+  {% if result is not none %}
+    {% if result %}
+      <p style="color: red;">This email was found in a breach.</p>
+    {% else %}
+      <p style="color: green;">No breach found for this email.</p>
+    {% endif %}
+  {% endif %}
+</body>
+</html>
