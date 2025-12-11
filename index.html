@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawn Mowing [AREA] | [BUSINESS_NAME]</title>
+  <meta name="description" content="Reliable lawn mowing and garden care in [PRIMARY_SUBURB/REGION]. Local, insured, and friendly service by [BUSINESS_NAME]. Call [PHONE_NUMBER] for a fast free quote.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo" aria-label="[BUSINESS_NAME] home">[BUSINESS_NAME]</div>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#areas">Service Areas</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-secondary" href="#quote">Get a Free Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Local lawn and garden experts in [PRIMARY_SUBURB/REGION]</p>
+          <h1>Lawn Mowing and Garden Care in [AREA] – On Time, Every Time</h1>
+          <p class="subheadline">Reliable, affordable, and fully insured. We keep your lawn tidy so you can enjoy your weekend. Locally owned and committed to showing up when we say we will.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#quote">Get a Free Quote</a>
+            <a class="btn btn-outline" href="tel:[PHONE_NUMBER]">Call [PHONE_NUMBER]</a>
+          </div>
+          <div class="trust-badges" aria-label="Trust badges">
+            <span>Fully Insured</span>
+            <span>Locally Owned</span>
+            <span>Satisfaction Guarantee</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-shape">Freshly cut lawns, tidy gardens, and reliable service every visit.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote" id="quote">
+      <div class="container">
+        <div class="section-header">
+          <h2>Request Your Free Quote</h2>
+          <p>Tell us what you need and we will respond quickly with a tailored price for your lawn or garden.</p>
+        </div>
+        <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+        <form id="quote-form" novalidate>
+          <div class="form-grid">
+            <label>Full Name*
+              <input type="text" name="fullName" required aria-required="true" placeholder="Your name" autocomplete="name">
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label>Phone*
+              <input type="tel" name="phone" required aria-required="true" placeholder="Best contact number" autocomplete="tel">
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label>Email
+              <input type="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label>Suburb*
+              <input type="text" name="suburb" required aria-required="true" placeholder="e.g. [PRIMARY_SUBURB/REGION]" autocomplete="address-level2">
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label>Service type*
+              <select name="service" required aria-required="true">
+                <option value="">Select a service</option>
+                <option>Lawn mowing</option>
+                <option>Edging</option>
+                <option>Hedging</option>
+                <option>Garden tidy-up</option>
+                <option>Green waste removal</option>
+                <option>Regular maintenance</option>
+                <option>Other</option>
+              </select>
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label class="full-width">Message/Details
+              <textarea name="details" rows="4" placeholder="Tell us about your lawn size, garden needs, and preferred days."></textarea>
+              <small class="error" aria-live="polite"></small>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" name="consent" required aria-required="true">
+              <span>I’m happy to be contacted about this quote.</span>
+              <small class="error" aria-live="polite"></small>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large">Get My Free Quote</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>From quick tidy-ups to regular maintenance, we tailor our lawn and garden care to suit your property.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Lawn mowing</h3>
+            <p>Consistent, neat mowing with crisp edges to keep your lawn healthy and welcoming.</p>
+          </article>
+          <article class="card">
+            <h3>Edging and whipper snipping</h3>
+            <p>Sharp, clean edges around paths and garden beds for a professional finish.</p>
+          </article>
+          <article class="card">
+            <h3>Hedging and pruning</h3>
+            <p>Shaped hedges and trimmed shrubs to encourage growth and improve street appeal.</p>
+          </article>
+          <article class="card">
+            <h3>Garden clean-ups</h3>
+            <p>Seasonal tidy-ups, weed removal, and debris clearing to refresh your outdoor space.</p>
+          </article>
+          <article class="card">
+            <h3>Green waste removal</h3>
+            <p>Responsible disposal of clippings and green waste so your yard is spotless.</p>
+          </article>
+          <article class="card">
+            <h3>Regular maintenance plans</h3>
+            <p>Scheduled visits that keep your lawn lush and your garden under control all year.</p>
+          </article>
+        </div>
+        <p class="cta-link">Not sure what you need? <a href="#quote">Get a free quote.</a></p>
+      </div>
+    </section>
+
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Choose [BUSINESS_NAME]?</h2>
+          <p>We’re a local team that shows up on time, treats your lawn like our own, and keeps you informed every step.</p>
+        </div>
+        <ul class="benefits">
+          <li><span class="icon" aria-hidden="true">✔</span> Local and reliable across [PRIMARY_SUBURB/REGION]</li>
+          <li><span class="icon" aria-hidden="true">✔</span> Fully insured for your peace of mind</li>
+          <li><span class="icon" aria-hidden="true">✔</span> Friendly, professional service you can trust</li>
+          <li><span class="icon" aria-hidden="true">✔</span> Upfront, competitive pricing with no surprises</li>
+          <li><span class="icon" aria-hidden="true">✔</span> Great communication and fast response times</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="areas" id="areas">
+      <div class="container">
+        <div class="section-header">
+          <h2>Proudly Servicing</h2>
+          <p class="lead-area">[PRIMARY_SUBURB/REGION]</p>
+          <p>Fast, friendly service for locals across: [LIST_OF_SUBURBS].</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Customers Say</h2>
+          <p>Real feedback from neighbours who trust us with their lawns and gardens.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card testimonial">
+            <p class="quote">“They turned up exactly when promised and left the lawn spotless.”</p>
+            <p class="author">Sarah J. – [PRIMARY_SUBURB/REGION]</p>
+          </article>
+          <article class="card testimonial">
+            <p class="quote">“Great communication and fair pricing. Our hedges have never looked better.”</p>
+            <p class="author">Liam P. – [LIST_OF_SUBURBS]</p>
+          </article>
+          <article class="card testimonial">
+            <p class="quote">“Quick response for a green waste clean-up. Friendly and professional.”</p>
+            <p class="author">Emily K. – [LIST_OF_SUBURBS]</p>
+          </article>
+          <article class="card testimonial">
+            <p class="quote">“Reliable ongoing maintenance that keeps our garden tidy all year.”</p>
+            <p class="author">Noah W. – [PRIMARY_SUBURB/REGION]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About [BUSINESS_NAME]</h2>
+          <p>[BUSINESS_NAME] is a local mowing and gardening business committed to reliable, consistent service. We take pride in neat edges, tidy gardens, and clear communication so you always know what to expect. Our team lives and works in [PRIMARY_SUBURB/REGION], which means fast response times and a genuine understanding of local lawns. Whether you need a one-off tidy-up or a regular maintenance plan, we show up on time and deliver quality every visit. Let us handle the hard work so you can enjoy a beautiful, hassle-free yard.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Clear answers to the most common questions about our lawn mowing and gardening services.</p>
+        </div>
+        <div class="accordion" role="tablist">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">How much do you charge?</button>
+            <div class="accordion-panel" hidden>
+              <p>Pricing depends on lawn size, access, and services required. Share a few details and we’ll provide a clear, upfront quote with no surprises.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Do I have to be home for the quote or service?</button>
+            <div class="accordion-panel" hidden>
+              <p>No, as long as we can access your yard. We’ll confirm any details in advance and keep you updated before and after each visit.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Are you insured?</button>
+            <div class="accordion-panel" hidden>
+              <p>Yes, we’re fully insured so you can feel confident your property is protected while we work.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Can you do regular maintenance?</button>
+            <div class="accordion-panel" hidden>
+              <p>Absolutely. We offer scheduled maintenance plans to keep your lawn and garden looking great all year round.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">Do you take away the grass clippings and green waste?</button>
+            <div class="accordion-panel" hidden>
+              <p>Yes, we can remove clippings and green waste as part of the service, leaving your property neat and tidy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>[BUSINESS_NAME]</h3>
+        <p>Serving [PRIMARY_SUBURB/REGION] and surrounds with reliable lawn mowing and garden care.</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:[PHONE_NUMBER]">[PHONE_NUMBER]</a>
+        <a href="mailto:[EMAIL_ADDRESS]">[EMAIL_ADDRESS]</a>
+        <p>Helping neighbours across [LIST_OF_SUBURBS].</p>
+      </div>
+      <div class="footer-meta">
+        <p class="copyright">© <span id="year"></span> [BUSINESS_NAME]. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
