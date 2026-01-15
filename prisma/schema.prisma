@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Quote {
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+  name           String
+  phone          String
+  email          String
+  suburb         String
+  services       String
+  frequency      String
+  lawnSize       String
+  cornerBlock    String
+  accessNotes    String
+  pets           String
+  preferredTime  String
+  extraNotes     String
+  photosProvided Boolean  @default(false)
+  source         String   @default("website")
+}
