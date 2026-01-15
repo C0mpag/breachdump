@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="#E2FBEA" />
+  <rect x="80" y="80" width="1040" height="640" rx="40" fill="#F8FAFC" stroke="#CFE7D8" stroke-width="4" />
+  <path d="M240 560C330 460 430 420 520 440C610 460 690 520 780 520C870 520 960 470 1040 400" stroke="#22C55E" stroke-width="16" stroke-linecap="round" />
+  <circle cx="360" cy="320" r="90" fill="#BBF7D0" />
+  <circle cx="840" cy="300" r="70" fill="#86EFAC" />
+  <rect x="240" y="610" width="720" height="22" rx="11" fill="#16A34A" />
+  <text x="50%" y="48%" font-family="Arial, sans-serif" font-size="42" fill="#15803D" text-anchor="middle">
+    Branching Out SEQ
+  </text>
+  <text x="50%" y="55%" font-family="Arial, sans-serif" font-size="20" fill="#0F172A" text-anchor="middle">
+    Lawn mowing & property maintenance
+  </text>
+</svg>
